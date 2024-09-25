@@ -1,8 +1,7 @@
-
 package pilaarraylist;
 
-
 public class Accion {
+
     private String tipo;
     private String descripcion;
 
@@ -32,7 +31,10 @@ public class Accion {
 
     @Override
     public String toString() {
-        return "Accion{" + "tipo=" + tipo + ", descripcion=" + descripcion + '}';
-    }   
+        return "El tipo de cambio es: " + tipo + ", y la descripción del cambio es: " + descripcion + '.';
+    }
     
+    public String revertir(){
+        return "Se deshizo: "+descripcion;
+    }
 }
