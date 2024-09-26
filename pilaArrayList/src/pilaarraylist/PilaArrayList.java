@@ -1,3 +1,8 @@
+/**
+ * Alexander Chacon Fresneda-506232047
+ * Sharon Karina Cruz Valencia-506232723
+ */
+
 package pilaarraylist;
 
 import java.util.ArrayList;
